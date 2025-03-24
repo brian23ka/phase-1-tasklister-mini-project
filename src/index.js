@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <span class="duration"><strong>Duration:</strong> ${taskDuration} hours</span><br>
     <span class="due-date"><strong>Due Date:</strong> ${taskDueDate}</span><br>
   `;
+  
       // Append checkbox, task description, and delete button
     taskItem.prepend(checkBox);
     taskItem.innerHTML += `
